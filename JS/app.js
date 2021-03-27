@@ -4,4 +4,11 @@ const todoList = { todo: "Finish Assignment 1 by March 19", status: "complete" }
 completedTodos = []
 // []
 
+// p5: Create for loops to check if todoList objects status is complete //
+for (status in todoList) { if (status == status) {completedTodos.push(status)}}
+// 2
+console.log(completedTodos)
+// ["todo", "status"]
+
+
 
